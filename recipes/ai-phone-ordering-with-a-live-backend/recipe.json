@@ -1,0 +1,39 @@
+{
+  "slug": "ai-phone-ordering-with-a-live-backend",
+  "kind": "build",
+  "title": "AI phone ordering: a voice agent working with a live backend in real time",
+  "alias": "AI voice ordering with POS integration",
+  "also_known_as": [
+    "restaurant voice AI",
+    "voice ordering system",
+    "AI agent function calling",
+    "coffee shop demo"
+  ],
+  "summary": "A coffee shop ordering demo built to show a voice AI agent working with a real backend in real time. Every item is a tool call into the order system, nothing exists until a handler has recorded it, and the page shows each call as it happens.",
+  "scenario": "A coffee order by phone or browser, with a live ticket drawn from what the backend recorded and the tool calls listed under it",
+  "category": "ai-agents",
+  "products": [
+    "ai-agents",
+    "voice"
+  ],
+  "capabilities": [
+    "tools",
+    "user-event",
+    "browser-sdk",
+    "guest-token",
+    "webhook-signature"
+  ],
+  "surfaces": [],
+  "repo": "https://github.com/signalwire-demos/coffee-shop",
+  "composes": [
+    "give-an-agent-a-tool",
+    "push-events-from-an-agent-to-the-browser",
+    "let-a-browser-dial-your-agent-with-no-dashboard-setup",
+    "call-from-a-browser",
+    "route-a-call-to-an-ai-agent",
+    "keep-heavy-state-out-of-global-data",
+    "commit-a-transaction-from-a-call",
+    "verify-a-webhook-signature"
+  ],
+  "demo": "none"
+}

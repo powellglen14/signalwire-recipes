@@ -1,0 +1,45 @@
+{
+  "slug": "ai-drive-thru-ordering-with-a-code-driven-voice-agent",
+  "former_slugs": [
+    "drive-thru-order-taker"
+  ],
+  "kind": "build",
+  "title": "AI drive-thru ordering: a voice agent whose flow your code controls",
+  "alias": "drive-thru voice AI with code-driven conversation flow",
+  "also_known_as": [
+    "QSR voice AI",
+    "deterministic voice AI",
+    "state machine controlled LLM",
+    "Holy Guacamole demo"
+  ],
+  "summary": "A fast-food drive-thru demo built to show a voice AI agent run by a state machine in your code. Steps scope the tools, handlers move the flow, upsell rules run as code, and a live order board updates from events.",
+  "scenario": "A guacamole drive-thru with an avatar and a live order board, where the code notices the combo and offers it",
+  "category": "ai-agents",
+  "products": [
+    "ai-agents",
+    "voice",
+    "video"
+  ],
+  "capabilities": [
+    "contexts",
+    "user-event",
+    "browser-sdk",
+    "avatar",
+    "guest-token",
+    "barge-in"
+  ],
+  "surfaces": [],
+  "repo": "https://github.com/signalwire-demos/holyguacamole",
+  "demo_url": "https://holyguacamole.signalwire.me",
+  "composes": [
+    "scope-tools-per-step",
+    "enforce-state-transitions-in-a-tool-handler",
+    "push-events-from-an-agent-to-the-browser",
+    "give-an-agent-a-video-avatar",
+    "let-a-browser-dial-your-agent-with-no-dashboard-setup",
+    "call-from-a-browser",
+    "configure-an-agent-per-request",
+    "control-when-a-caller-can-interrupt-a-voice-agent"
+  ],
+  "demo": "none"
+}

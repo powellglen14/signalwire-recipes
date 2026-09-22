@@ -1,0 +1,41 @@
+{
+  "slug": "ivr-navigation-ai-agent-that-reaches-a-human",
+  "former_slugs": [
+    "ivr-pathfinder"
+  ],
+  "kind": "build",
+  "title": "IVR navigator: an AI agent that works through phone menus to reach a human",
+  "alias": "automated IVR navigation with DTMF",
+  "also_known_as": [
+    "phone tree automation",
+    "navigate IVR menus with AI",
+    "DTMF navigation agent",
+    "Pathfinder demo"
+  ],
+  "summary": "An IVR navigation demo built to show an AI agent dialing into an unknown phone tree, listening, and pressing the digits that serve a goal, without speaking. When it reaches a human it hands off with the full path it took.",
+  "scenario": "Reach a human in the pharmacy department of a phone tree nobody has mapped",
+  "category": "ai-agents",
+  "products": [
+    "ai-agents",
+    "voice"
+  ],
+  "capabilities": [
+    "dtmf",
+    "outbound",
+    "contexts",
+    "governance",
+    "handoff"
+  ],
+  "surfaces": [],
+  "repo": "https://github.com/signalwire-demos/pathfinder",
+  "composes": [
+    "send-dtmf-to-an-external-ivr",
+    "place-an-outbound-ai-call",
+    "scope-tools-per-step",
+    "enforce-state-transitions-in-a-tool-handler",
+    "record-a-call",
+    "transfer-a-call-without-losing-context",
+    "transfer-a-call"
+  ],
+  "demo": "none"
+}

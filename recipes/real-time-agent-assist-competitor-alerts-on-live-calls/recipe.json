@@ -1,0 +1,32 @@
+{
+  "slug": "real-time-agent-assist-competitor-alerts-on-live-calls",
+  "kind": "build",
+  "title": "Competitor alerts on live calls: real-time agent assist from an AI listener",
+  "alias": "real-time agent assist and conversation intelligence",
+  "also_known_as": [
+    "conversation intelligence",
+    "live call monitoring AI",
+    "sales call intelligence",
+    "AI sidecar"
+  ],
+  "summary": "A sales-call demo built to show real-time agent assist: an AI listener rides along on a live call, notices when the customer names a competitor, and posts the alert to your server while the sentence is still being spoken. It never speaks into the call.",
+  "scenario": "A sales rep is on a call and an alert lands on their screen the moment the customer says a rival's name",
+  "category": "ai-agents",
+  "products": [
+    "ai-agents",
+    "voice"
+  ],
+  "capabilities": [
+    "sidecar",
+    "tools",
+    "webhook"
+  ],
+  "surfaces": [],
+  "repo": "https://github.com/signalwire-demos/sidecar-competitor-alerts",
+  "demo_url": "https://sidecar-demo.signalwire.me",
+  "composes": [
+    "run-an-ai-sidecar-on-a-live-call",
+    "give-an-agent-a-tool"
+  ],
+  "demo": "none"
+}

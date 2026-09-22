@@ -2,7 +2,7 @@
 
 Every folder here is self-contained. Clone the repository, open one, and run it.
 
-122 recipes, each proved by its own verifier.
+128 recipes, each proved by its own verifier.
 
 Each recipe proves one claim about the platform. Its `verify.py` checks that claim
 against the document the platform actually receives, so it runs without an account
@@ -282,8 +282,44 @@ Send and receive fax with status webhooks.
 
 A build is an application you deploy and operate, assembled from the recipes above.
 
+### [AI drive-thru ordering: a voice agent whose flow your code controls](ai-drive-thru-ordering-with-a-code-driven-voice-agent/)
+
+A fast-food drive-thru demo built to show a voice AI agent run by a state machine in your code. Steps scope the tools, handlers move the flow, upsell rules run as code, and a live order board updates from events.
+
+Composes: [Control which tools an AI agent can call at each step](scope-tools-per-step/), [Enforce an AI agent's next step in code](enforce-state-transitions-in-a-tool-handler/), [Push events from a voice AI agent to the browser](push-events-from-an-agent-to-the-browser/), [Give a voice AI agent a video avatar](give-an-agent-a-video-avatar/), [Let a browser dial your agent with no dashboard setup](let-a-browser-dial-your-agent-with-no-dashboard-setup/), [Call from a browser](call-from-a-browser/), [Configure a voice AI agent per request for many tenants](configure-an-agent-per-request/), [Control when a caller can interrupt a voice AI agent](control-when-a-caller-can-interrupt-a-voice-agent/)
+
+### [AI phone ordering: a voice agent working with a live backend in real time](ai-phone-ordering-with-a-live-backend/)
+
+A coffee shop ordering demo built to show a voice AI agent working with a real backend in real time. Every item is a tool call into the order system, nothing exists until a handler has recorded it, and the page shows each call as it happens.
+
+Composes: [Give a voice AI agent a tool](give-an-agent-a-tool/), [Push events from a voice AI agent to the browser](push-events-from-an-agent-to-the-browser/), [Let a browser dial your agent with no dashboard setup](let-a-browser-dial-your-agent-with-no-dashboard-setup/), [Call from a browser](call-from-a-browser/), [Route a call to an AI agent](route-a-call-to-an-ai-agent/), [Keep per-call state server-side, keyed by call id](keep-heavy-state-out-of-global-data/), [Commit a transaction from a call](commit-a-transaction-from-a-call/), [Verify a webhook signature](verify-a-webhook-signature/)
+
+### [Competitor alerts on live calls: real-time agent assist from an AI listener](real-time-agent-assist-competitor-alerts-on-live-calls/)
+
+A sales-call demo built to show real-time agent assist: an AI listener rides along on a live call, notices when the customer names a competitor, and posts the alert to your server while the sentence is still being spoken. It never speaks into the call.
+
+Composes: [Run an AI sidecar on a live call](run-an-ai-sidecar-on-a-live-call/), [Give a voice AI agent a tool](give-an-agent-a-tool/)
+
 ### [Embed a state-aware voice agent in your web page](embed-a-state-aware-voice-agent-in-your-web-page/)
 
 Embed a voice and video assistant that searches your documentation, knows the current page, and navigates visitors to relevant sections.
 
 Composes: [Ground a voice AI agent in your documents](ground-an-agent-in-your-docs/), [Push events from a voice AI agent to the browser](push-events-from-an-agent-to-the-browser/), [Give a voice AI agent a video avatar](give-an-agent-a-video-avatar/), [Cover AI agent tool latency with fillers](cover-tool-latency-with-fillers/), [Let a browser dial your agent with no dashboard setup](let-a-browser-dial-your-agent-with-no-dashboard-setup/), [Call from a browser](call-from-a-browser/), [Inject a message into a live AI call](inject-a-message-into-a-live-ai-call/), [Configure a voice AI agent per request for many tenants](configure-an-agent-per-request/), [Keep per-call state server-side, keyed by call id](keep-heavy-state-out-of-global-data/), [Run a voice AI agent as an AWS Lambda function](run-an-agent-as-a-cloud-function/)
+
+### [IVR navigator: an AI agent that works through phone menus to reach a human](ivr-navigation-ai-agent-that-reaches-a-human/)
+
+An IVR navigation demo built to show an AI agent dialing into an unknown phone tree, listening, and pressing the digits that serve a goal, without speaking. When it reaches a human it hands off with the full path it took.
+
+Composes: [Send DTMF to someone else's IVR](send-dtmf-to-an-external-ivr/), [Place an outbound AI call](place-an-outbound-ai-call/), [Control which tools an AI agent can call at each step](scope-tools-per-step/), [Enforce an AI agent's next step in code](enforce-state-transitions-in-a-tool-handler/), [Record a call](record-a-call/), [Transfer a call without losing context](transfer-a-call-without-losing-context/), [Transfer a call](transfer-a-call/)
+
+### [Order status desk: one omnichannel AI agent for web chat and phone](omnichannel-ai-agent-for-web-chat-and-phone/)
+
+An order status demo built to show one AI agent serving web chat and phone calls, with the conversation moving between the two without starting over. It answers questions about order status and declines everything else, on purpose.
+
+Composes: [Put an AI agent in a web chat widget](put-an-agent-in-a-web-chat-widget/), [Run the same voice AI agent over text chat](run-the-same-agent-over-text/), [Route a call to an AI agent](route-a-call-to-an-ai-agent/), [Give a voice AI agent a tool](give-an-agent-a-tool/), [Configure a voice AI agent per request for many tenants](configure-an-agent-per-request/), [Place an outbound call](place-an-outbound-call/), [Inject a message into a live AI call](inject-a-message-into-a-live-ai-call/), [End or transfer a live call over REST](end-or-transfer-a-live-call-over-rest/)
+
+### [Video blackjack dealer: a voice AI agent that controls the browser](video-ai-dealer-controlling-the-browser-over-webrtc/)
+
+A blackjack game built to show a video AI agent controlling a web page in real time over WebRTC. Stepped conversation contexts run the hand, every card and chip change reaches the page as an event, and the dealer's voice is chosen on the page.
+
+Composes: [Control which tools an AI agent can call at each step](scope-tools-per-step/), [Enforce an AI agent's next step in code](enforce-state-transitions-in-a-tool-handler/), [Push events from a voice AI agent to the browser](push-events-from-an-agent-to-the-browser/), [Give a voice AI agent a video avatar](give-an-agent-a-video-avatar/), [Let a browser dial your agent with no dashboard setup](let-a-browser-dial-your-agent-with-no-dashboard-setup/), [Call from a browser](call-from-a-browser/), [Configure a voice AI agent per request for many tenants](configure-an-agent-per-request/)

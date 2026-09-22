@@ -1,0 +1,41 @@
+{
+  "slug": "video-ai-dealer-controlling-the-browser-over-webrtc",
+  "kind": "build",
+  "title": "Video blackjack dealer: a voice AI agent that controls the browser",
+  "alias": "real-time AI avatar with voice-controlled browser UI over WebRTC",
+  "also_known_as": [
+    "AI avatar over WebRTC",
+    "voice AI browser control",
+    "interactive video AI agent",
+    "AI blackjack dealer"
+  ],
+  "summary": "A blackjack game built to show a video AI agent controlling a web page in real time over WebRTC. Stepped conversation contexts run the hand, every card and chip change reaches the page as an event, and the dealer's voice is chosen on the page.",
+  "scenario": "Blackjack against a dealer with a face and a voice you chose, in a browser tab",
+  "category": "ai-agents",
+  "products": [
+    "ai-agents",
+    "voice",
+    "video"
+  ],
+  "capabilities": [
+    "contexts",
+    "user-event",
+    "browser-sdk",
+    "avatar",
+    "guest-token",
+    "voice-selection"
+  ],
+  "surfaces": [],
+  "repo": "https://github.com/signalwire-demos/blackjack",
+  "demo_url": "https://blackjack.signalwire.me",
+  "composes": [
+    "scope-tools-per-step",
+    "enforce-state-transitions-in-a-tool-handler",
+    "push-events-from-an-agent-to-the-browser",
+    "give-an-agent-a-video-avatar",
+    "let-a-browser-dial-your-agent-with-no-dashboard-setup",
+    "call-from-a-browser",
+    "configure-an-agent-per-request"
+  ],
+  "demo": "none"
+}

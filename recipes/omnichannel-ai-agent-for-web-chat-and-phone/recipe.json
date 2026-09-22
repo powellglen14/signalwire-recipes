@@ -1,0 +1,39 @@
+{
+  "slug": "omnichannel-ai-agent-for-web-chat-and-phone",
+  "kind": "build",
+  "title": "Order status desk: one omnichannel AI agent for web chat and phone",
+  "alias": "omnichannel AI agent with chat-to-call handoff and context",
+  "also_known_as": [
+    "omnichannel customer service AI",
+    "chat to voice escalation",
+    "AI Chat API demo",
+    "text and voice on one agent"
+  ],
+  "summary": "An order status demo built to show one AI agent serving web chat and phone calls, with the conversation moving between the two without starting over. It answers questions about order status and declines everything else, on purpose.",
+  "scenario": "A customer asks about an order in web chat, escalates to a call, and the voice agent already knows the thread",
+  "category": "ai-agents",
+  "products": [
+    "ai-agents",
+    "voice"
+  ],
+  "capabilities": [
+    "chat",
+    "handoff",
+    "rest",
+    "tools"
+  ],
+  "surfaces": [],
+  "repo": "https://github.com/signalwire-demos/chat-order-status",
+  "demo_url": "https://ai-chat-demo.signalwire.me/demo/",
+  "composes": [
+    "put-an-agent-in-a-web-chat-widget",
+    "run-the-same-agent-over-text",
+    "route-a-call-to-an-ai-agent",
+    "give-an-agent-a-tool",
+    "configure-an-agent-per-request",
+    "place-an-outbound-call",
+    "inject-a-message-into-a-live-ai-call",
+    "end-or-transfer-a-live-call-over-rest"
+  ],
+  "demo": "none"
+}
